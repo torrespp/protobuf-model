@@ -1,0 +1,12 @@
+package com.gusvmx.protobuf.model;
+
+option java_package = "com.gus.protobuf.model";
+option java_outer_classname = "MyModelProtos";
+
+message Person {
+	required string name = 1;
+	required int32 id = 2;
+	optional string email = 3;
+	optional string lastName = 4;
+}
+
